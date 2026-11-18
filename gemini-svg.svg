@@ -1,0 +1,58 @@
+<svg width="850" height="160" viewBox="0 0 850 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="850" height="160" rx="12" fill="#0D1117" stroke="#30363D" stroke-width="1.5" />
+  
+  <style>
+    .title {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      font-size: 32px;
+      fill: #F0F6FC;
+    }
+    .subtitle {
+      font-family: 'Fira Code', 'Cascadia Code', monospace;
+      font-size: 16px;
+      fill: #58A6FF;
+      opacity: 0;
+      animation: fadeIn 1.2s ease-in-out 0.8s forwards;
+    }
+    .accent {
+      fill: #A371F7;
+    }
+    .cursor {
+      fill: #58A6FF;
+      animation: blink 1s step-end infinite;
+    }
+    .typing-group {
+      animation: slideIn 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+  </style>
+
+  <!-- Detalhes sutis de grade no fundo -->
+  <circle cx="800" cy="35" r="4" fill="#FF5F56" />
+  <circle cx="782" cy="35" r="4" fill="#FFBD2E" />
+  <circle cx="764" cy="35" r="4" fill="#27C93F" />
+
+  <g class="typing-group">
+    <text x="45" y="72" class="title">
+      Olá, eu sou a <tspan class="accent">Gabrieli Boeira</tspan> 👋
+    </text>
+  </g>
+
+  <text x="45" y="112" class="subtitle">
+    > Data Science | MLOps & Computer Vision | Logistics Analytics
+  </text>
+  <rect x="645" y="98" width="9" height="18" class="cursor" />
+</svg>
