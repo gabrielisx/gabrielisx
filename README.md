@@ -29,8 +29,8 @@
 ### 📊 Estatísticas & Atividade Recente
 
 <div align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=gabrieliboeira&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gabrieliboeira&layout=compact&langs_count=6&theme=tokyonight&hide_border=true"/>
+  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=gabrielisx&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
+  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gabrielisx&layout=compact&langs_count=6&theme=tokyonight&hide_border=true"/>
 </div>
 
 #### 🔄 Últimas Atualizações nos Repositórios
