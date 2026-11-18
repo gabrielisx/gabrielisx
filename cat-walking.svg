@@ -1,0 +1,76 @@
+<svg viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="150" rx="14" fill="#0D1117"/>
+
+  <!-- trilhas de circuito no fundo -->
+  <g stroke="#21262D" stroke-width="1.5" opacity="0.6">
+    <line x1="0" y1="30" x2="150" y2="30"/>
+    <line x1="150" y1="30" x2="150" y2="10"/>
+    <circle cx="150" cy="10" r="3" fill="#21262D"/>
+    <line x1="350" y1="20" x2="500" y2="20"/>
+    <line x1="350" y1="20" x2="350" y2="5"/>
+    <circle cx="350" cy="5" r="3" fill="#21262D"/>
+    <line x1="0" y1="140" x2="80" y2="140"/>
+    <circle cx="80" cy="140" r="3" fill="#21262D"/>
+  </g>
+
+  <!-- binário caindo -->
+  <g font-family="monospace" font-size="13" fill="#1F6FEB" opacity="0.5">
+    <text x="40" y="-10">0101
+      <animate attributeName="y" values="-10;160" dur="4s" begin="0s" repeatCount="indefinite"/>
+    </text>
+    <text x="110" y="-10">1010
+      <animate attributeName="y" values="-10;160" dur="5s" begin="1s" repeatCount="indefinite"/>
+    </text>
+    <text x="230" y="-10">0110
+      <animate attributeName="y" values="-10;160" dur="4.5s" begin="0.5s" repeatCount="indefinite"/>
+    </text>
+    <text x="310" y="-10">1001
+      <animate attributeName="y" values="-10;160" dur="5.5s" begin="2s" repeatCount="indefinite"/>
+    </text>
+    <text x="430" y="-10">0011
+      <animate attributeName="y" values="-10;160" dur="4s" begin="1.5s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- linha do chão -->
+  <line x1="20" y1="128" x2="480" y2="128" stroke="#30363D" stroke-width="2" stroke-dasharray="6 6"/>
+
+  <!-- gato andando -->
+  <g id="cat">
+    <animateTransform attributeName="transform" type="translate" values="-120,0;620,0" dur="8s" repeatCount="indefinite"/>
+
+    <!-- patas traseiras -->
+    <rect x="127" y="100" width="6" height="25" rx="3" fill="#4A9EFF">
+      <animateTransform attributeName="transform" type="rotate" values="20 130 100;-20 130 100;20 130 100" dur="0.6s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="172" y="100" width="6" height="25" rx="3" fill="#4A9EFF">
+      <animateTransform attributeName="transform" type="rotate" values="20 175 100;-20 175 100;20 175 100" dur="0.6s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- patas dianteiras -->
+    <rect x="145" y="100" width="6" height="25" rx="3" fill="#79C0FF">
+      <animateTransform attributeName="transform" type="rotate" values="-20 148 100;20 148 100;-20 148 100" dur="0.6s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="157" y="100" width="6" height="25" rx="3" fill="#79C0FF">
+      <animateTransform attributeName="transform" type="rotate" values="-20 160 100;20 160 100;-20 160 100" dur="0.6s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- cauda -->
+    <path d="M115,88 Q88,68 98,45" stroke="#79C0FF" stroke-width="6" fill="none" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" values="8 115 88;-8 115 88;8 115 88" dur="1s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- corpo -->
+    <ellipse cx="150" cy="90" rx="35" ry="20" fill="#79C0FF"/>
+
+    <!-- cabeça -->
+    <circle cx="188" cy="75" r="18" fill="#79C0FF"/>
+    <polygon points="175,62 180,44 188,60" fill="#79C0FF"/>
+    <polygon points="188,60 196,44 202,62" fill="#79C0FF"/>
+
+    <!-- rosto -->
+    <circle cx="183" cy="73" r="2" fill="#0D1117"/>
+    <circle cx="195" cy="73" r="2" fill="#0D1117"/>
+    <path d="M184,80 Q188,84 192,80" stroke="#0D1117" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>
