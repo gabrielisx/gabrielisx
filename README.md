@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./header.svg" alt="Gabrieli Boeira Header" width="100%" />
+  <img src="https://raw.githubusercontent.com/gabrielisx/gabrielisx/main/header.svg" alt="Gabrieli Boeira Header" width="100%" />
 </div>
 
 <br/>
@@ -40,5 +40,5 @@
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=gabrieliboeira&label=Profile%20Views&color=7057ff&style=flat-square" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=gabrielisx&label=Profile%20Views&color=7057ff&style=flat-square" alt="Profile Views" />
 </div>
