@@ -1,7 +1,6 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/gabrielisx/gabrielisx/main/header.svg" alt="Gabrieli Boeira Header" width="100%" />
 </div>
-
 <br/>
 
 ### 🚀 Sobre mim
